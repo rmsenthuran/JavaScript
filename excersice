@@ -1,0 +1,45 @@
+
+
+function findSquare(var a){
+  return a * a ;
+}
+
+
+var num1;
+var num2;
+
+function addNum(num1, num2){
+  return num1+num2;
+}
+
+function multiNum(num1, num2){
+  return num1*num2;
+}
+
+function subtractNum(num1, num2){
+  return num1-num2;
+}
+
+function divideNum(num1, num2){
+  return num1/num2;
+}
+
+
+function printHelloWorld(){
+  window.alert("Hello World");
+}
+
+
+function findVolume( length, width, height){
+  return length * width * height;
+}
+
+  
+var person = {firstName:"Nimal", lastName:"Raj", age:15, city:"Kandy"};
+console.log("My Name is "+person.firstName+" "+person.lastName+". I'm "+person.age+" years old. I live in "+person.city);
+
+
+var course = {courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"};
+for (var property in course) {
+  console.log(property + ': ' + course[property]);
+}
